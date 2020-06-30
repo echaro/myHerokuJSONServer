@@ -26,5 +26,11 @@
   "/api/login/v1/public/login/supermovil?token=:token": "/auth",
   "/api/viewFile?documentId=:documentId": "/viewFile",
   "/api/downloadFile?contractId=:contractId": "/downloadFile",
-  "/api/downloadDocumentFile?documentId=:documentId":"/downloadFile"
+  "/api/downloadDocumentFile?documentId=:documentId":"/downloadFile",
+  "/api/personal/v1/conversation/:conversation_id/message/history?deletedElement=:deletedElement": "/conversationHistory",
+  "/api/personal/v1/conversation/:conversation_id/message/history?limit=:limit&page=:page&deletedElement=:deletedElement": "/conversationHistory",
+  "/api/personal/v1/conversation/:conversation_id/message/filter?keyword=:keyword&from=:from&to=:to": "/conversationFilter",
+  "/api/personal/v1/conversation/:conversation_id/message/filter?keyword=:keyword": "/conversationFilter",
+  "/api/personal/v1/conversation/:conversation_id/message/filter?from=:from&to=:to": "/conversationFilter",
+  "/api/personal/v1/conversation/:manager/:client":"/conversationid"
 }

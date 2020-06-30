@@ -6,32 +6,7 @@
     "refresh_token": "IwOGYzYTlmM2YxOTQ5MGE3YmNmMDFkNTVk",
     "scope": "summary_1.0.0 accounts_1.0.0"
   },
-  "auth": {
-    "data":{"sessionId":"592a2f2d-4a9d-4276-966d-3eeabe211502","key":"4e20fbb243684d9eb19ff33a50ee422e",
-    "buc":"123456789","executiveId":"4e20fbb243684d9eb19ff33a50ee422e",
-    "name":"Ana",
-    "lastName":"Gutierrez",
-    "secondLastName":"Hernandez",
-    "fiscalRegime":"NATURAL",
-    "profilePicture":"string",
-    "status":"ACTIVE",
-    "personalIdentifier":null,
-    "bankSegment":{
-      "key":"070",
-      "name":"SELECT"
-    },
-    "contactInfo":{
-      "type":"BRANCH_USE",
-      "phoneNumber":"(55)-55-46-89-79",
-      "email":"mail@mail.com",
-      "status":"REGISTERED"
-    },
-    "contactMethod":"EMAIL",
-    "universityEnabled":true,
-    "termsAndConditionsId":"4e20fbb243684d9eb19ff33a50ee422e","registrationDate":"2020-05-08T07:17:46.811Z","lastLoginTimestamp":"2020-05-14T15:20:50.775Z","lastLogoutTimestamp":"2020-05-14T15:20:50.775Z"
-    },
-    "notifications":null
-  },
+  "auth": {"data":{"sessionId":"ce4236a0-b8d0-4de9-a787-76a5e67e157e","key":"1","buc":"123456789","name":"Ana","lastName":"Gutierrez","secondLastName":"Hernandez","fiscalRegime":"NATURAL","profilePicture":"string","status":"ACTIVE","personalIdentifier":null,"bankSegment":{"key":"070","name":"SELECT"},"contactInfo":{"type":"BRANCH_USE","phoneNumber":"(55)-55-46-89-79","email":"mail@mail.com","status":"REGISTERED"},"contactMethod":"EMAIL","universityEnabled":true,"termsAndConditionsId":"4e20fbb243684d9eb19ff33a50ee422e","registrationDate":"2020-05-08T07:17:46.811Z","lastLoginTimestamp":"2020-05-14T15:20:50.775Z","lastLogoutTimestamp":"2020-05-14T15:20:50.775Z","executive":{"id":"2","username":"n012025","name":"Cristian","secondName":null,"lastName":"Infante","secondLastName":null,"profilePicture":null,"status":"ACTIVE","role":"MANAGER","supervisorId":"TODO-setSupervisorId","personalIdentifier":null,"phoneNumber":"9999999999","signatureNumber":"TODO-SignatureNumber","extension":"11111","email":"default@email.com","registrationDate":"2020-06-18T13:44:27.721Z","ratings":null,"lastLoginTimestamp":"2020-06-22T11:26:35.421Z","lastLogoutTimestamp":null,"activeAwayMessage":null}},"notifications":null},
   "client": {
     "data": {
       "id": "34562343",
@@ -814,6 +789,381 @@
         "code": "string",
         "message": "string",
         "timestamp": "2020-05-14T21:36:11.612Z"
+      }
+    ]
+  },
+  "conversationFilter": {
+    "data": {
+      "coincidences": [
+        {
+          "page": 1,
+          "messagesId": [
+            "123456"
+          ]
+        },
+        {
+          "page": 3,
+          "messagesId": [
+            "123456"
+          ]
+        },
+        {
+          "page": 5,
+          "messagesId": [
+            "123456"
+          ]
+        }
+      ]
+    },
+    "notifications": [
+      {
+        "code": "string",
+        "level": "string",
+        "message": "string",
+        "timestamp": "2020-06-03T18:45:43.143Z"
+      }
+    ]
+  },
+  "conversationHistory": {
+    "data": {
+      "messages": [
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "2",
+          "to": "123456789",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "1",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Hola como estás"
+          },
+          "status": "Leido",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "2",
+          "conversationId": "1",
+          "from": "123456789",
+          "to": "2",
+          "type": "TEXT",
+          "text": {
+            "body": "Te comento que tengo unas consultas"
+          },
+          "status": "Enviado",
+          "statusMsg": {
+            "status": "Enviado",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        },
+        {
+          "id": "3",
+          "conversationId": "1",
+          "from": "2",
+          "to": "123456789",
+          "type": "TEXT",
+          "text": {
+            "body": "Claro! cuentame en qué te puedo ayudar?"
+          },
+          "status": "Enviado",
+          "statusMsg": {
+            "status": "Leido",
+            "timestamp": "2020-04-20T07:41:44.995Z"
+          },
+          "creationDateTime": "2020-04-20T07:41:44.995Z"
+        }
+      ],
+      "pageNumber": 0,
+      "pageSize": 0,
+      "totalElements": 0,
+      "totalPages": 0,
+      "first": true,
+      "last": false
+    },
+    "notifications": [
+      {
+        "code": "string",
+        "level": "string",
+        "message": "string",
+        "timestamp": "2020-06-03T15:12:56.284Z"
+      }
+    ]
+  },
+  "conversationid":{
+    "data": {
+      "conversation": {
+        "id": "12345678",
+        "managerId": "123456",
+        "clientId": "123456",
+        "creationDateTime": "2020-06-30T21:24:25.480Z",
+        "read": false
+      }
+    },
+    "notifications": [
+      {
+        "level": "WARNING",
+        "code": "E422CDNPAYRCPTG001",
+        "message": "Something happened.",
+        "timestamp": "2020-06-30T21:24:25.480Z"
       }
     ]
   }
