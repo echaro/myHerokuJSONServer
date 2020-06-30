@@ -11,7 +11,7 @@
   "/api/personal/contracts/client/me?status=:status": "/contractsSeachAndFilter",
   "/api/contracts/client/me/documents/": "/documents",
   "/api/contracts/client/me/documents/?status=:status": "/documentsWithStatusAndSearch",
-  "/api/catalogs?type=RejectClient": "/rejectionCatalogs",
+  "/api/v1/catalogs?types=:types": "/rejectionCatalogs",
   "/api/personal/contracts/client/:contract_id": "/contractDetail",
   "/api/personal/contracts/client/:contract_id/:executive_id": "/putContractBody",
   "/api/meetings/customer?customerId=:customerId&day=:day": "/allMeetings",
@@ -22,9 +22,9 @@
   "/api/termsConditions/id": "/termsConditionsID",
   "/api/customers/me/approve-tc": "/approve-tc",
   "/api/customers/me": "/customerInformation",
-  "/api/upload/viewFile/:contract_id": "/viewFile",
-  "/api/upload/viewDocumentFile/:document_id": "/viewFile",
   "/api/personal/customers/me": "/profile",
-  "/api/upload/downloadFile/:contract_id": "/downloadFile",
-  "/api/upload/downloadDocumentFile/:document_id":"/downloadFile"
+  "/api/v1/public/login/supermovil?token=:token": "/auth",
+  "/api/viewFile?documentId=:documentId": "/viewFile",
+  "/api/downloadFile?contractId=:contractId": "/downloadFile",
+  "/api/downloadDocumentFile?documentId=:documentId":"/downloadFile"
 }
