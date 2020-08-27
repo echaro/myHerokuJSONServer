@@ -20,7 +20,7 @@
   "/api/notifications": "/notifications",
   "/api/notifications/summary": "/notSum",
   "/api/termsConditions/id": "/termsConditionsID",
-  "/api/personal/v1/personal/customers/me/approve-tc": "/approve-tc",
+  "/api/personal/v1/customers/me/approve-tc": "/approve-tc",
   "/api/personal/v1/customers/me": "/customerInformation",
   "/api/personal/v1/personal/personal/customers/me": "/profile",
   "/api/login/v1/public/login/supermovil?token=:token": "/auth",
