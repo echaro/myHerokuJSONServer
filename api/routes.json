@@ -23,7 +23,7 @@
   "/api/personal/v1/personal/customers/me/approve-tc": "/approve-tc",
   "/api/personal/v1/personal/customers/me": "/customerInformation",
   "/api/personal/v1/personal/personal/customers/me": "/profile",
-  "/api/personal/v1/personal/login/v1/public/login/supermovil?token=:token": "/auth",
+  "/api/login/v1/public/login/supermovil?token=:token": "/auth",
   "/api/personal/v1/personal/viewFile?documentId=:documentId": "/viewFile",
   "/api/downloadFile?contractId=:contractId": "/downloadFile",
   "/api/downloadDocumentFile?documentId=:documentId":"/downloadFile",
