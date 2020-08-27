@@ -12,7 +12,7 @@
   "/api/personal/v1/personal/contracts/client/me/documents/": "/documents",
   "/api/personal/v1/personal/contracts/client/me/documents/?status=:status": "/documentsWithStatusAndSearch",
   "/api/v1/catalogs?types=:types": "/rejectionCatalogs",
-  "/api/personal/v1/personal/v1/personal/contracts/client/:contract_id": "/contractDetail",
+  "/api/personal/v1/personal/contracts/client/:contract_id": "/contractDetail",
   "/api/personal/v1/personal/contracts/client/:contract_id/:executive_id": "/putContractBody",
   "/api/personal/v1/personal/meetings/customer?customerId=:customerId&day=:day": "/allMeetings",
   "/api/meetings/customer/busy-days?managerId=:managerId&day=:day": "/busyDays",
